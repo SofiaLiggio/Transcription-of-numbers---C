@@ -45,6 +45,18 @@ do
         printf("\n***Number not included***\n\n");
         break;
     }
+
+    switch (number%2)
+        {
+        case 0: 
+            printf("\nEVEN NUMBER\n");
+            break;
+        
+        default:
+            printf("\nODD NUMBER\n");
+            break;
+        }
+        
 } while (number <1 || number>10);
     return 0;
 }
